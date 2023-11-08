@@ -1,0 +1,25 @@
+.noticia{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    background-color: rgb(28, 31, 66);
+    border-radius: 14px;
+    padding: 30px;
+    gap: 15px;
+}
+.noticia h3, p{
+    color: aliceblue;
+}
+.noticia button{
+    padding: 10px 14px;
+    border-radius: 14px;
+    border: none;
+    margin-top: 10px;
+}
+.noticia button:hover{
+    transition: .3s;
+    box-shadow: 0 0 10px rgb(50, 10, 249);
+    color: rgb(50, 10, 249);
+}
